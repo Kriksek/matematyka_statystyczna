@@ -7,4 +7,6 @@ print(paste("wartość", "minimalna:", min(liczby)))
 print(paste("wartość", "maxymalna:", max(liczby)))
 print(paste("mediana", median(liczby)))
 print(paste("rozstęp:", max(liczby)-min(liczby)))
-boxplot(liczby)
+print(paste("kwantyle", quantile(liczby)))
+scale(x,center=T,scale=T,)
+
